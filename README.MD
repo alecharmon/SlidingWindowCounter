@@ -40,7 +40,6 @@ Yhe `TimeUnit ` structure really lends itself well to if we wanted to add days o
 if we wanted to maintain a larger amount of input we could implement a map reduce type distribution of the module across multiple machines. If there was a load balancer sitting between this machine nodes the `increment` calls could be relayed randomly to each machine. In this way when a `numLastDay()` call was made they could each find their own value for this and then those values could be summed. This distributed structure would also be helpful if we wanted to record more than 5 thousand events per second.
 
 ## Thanks 👋
-Thank you for taking the time and looking through my work. I am eager to hear back.
 -- Alec Harmon Blumenfeld
 tel: 610-585-3444
 email: alec.blumenfeld@mail.mcgill.ca
